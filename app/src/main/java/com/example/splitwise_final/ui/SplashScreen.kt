@@ -13,8 +13,19 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+import androidx.compose.runtime.LaunchedEffect
+import kotlinx.coroutines.delay
+
 @Composable
-fun SplashScreen() {
+fun SplashScreen(
+    onSplashFinished: () -> Unit = {}
+) {
+    // Navigate after delay
+    LaunchedEffect(Unit) {
+        delay(2000)
+        onSplashFinished()
+    }
+
     Box(
         modifier = Modifier
             .fillMaxSize()
