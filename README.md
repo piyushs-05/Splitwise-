@@ -29,4 +29,5 @@ Splitwise is a modern, AI-powered Android application designed to simplify share
 
 The backend source code for this application is included in the `backend` directory. It powers the data synchronization and AI processing capabilities.
 *   **Repository**: [Splitwise-The_AI_Enabled_SettleUp](https://github.com/Shivan5h/Splitwise-The_AI_Enabled_SettleUp)
+*   Make sure you have backend up and running before starting the app 
 
